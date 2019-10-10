@@ -1,0 +1,52 @@
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+main {
+    display: block;
+}
+
+body {
+    color: #494949;
+    background: #FFFFFF;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .01rem;
+    line-height: 1.5;
+}
+
+div {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+}
+
+#work-page {
+  margin: 30px;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 30px;
+}
